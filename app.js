@@ -86,7 +86,7 @@ app.get(['/topic/:id/edit'], function(req, res){// 수정기능
         console.log(err);
         res.status(500).send('Internal Server Error');
       } else {
-        res.redirect(`/topic/add`)// 수정한 페이지로 이동
+        res.redirect(`/topic/add`) // 수정한 페이지로 이동
       }
     });
  });
